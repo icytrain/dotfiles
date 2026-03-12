@@ -1,0 +1,13 @@
+{
+    "chat.disableAIFeatures": true,
+    "workbench.colorTheme": "Default Light Modern",
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'Fira Code', 'Liberation Mono'",
+    "editor.fontLigatures": "'ss08', 'ss09'",
+    "window.dialogStyle": "custom",
+    "security.workspace.trust.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.stickyScroll.enabled": false,
+    "git.autofetch": true
+}
