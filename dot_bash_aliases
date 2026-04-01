@@ -6,7 +6,7 @@ debug() {
     make -s $1 && gdb -q $1
 }
 
-select_proxy() {
+refresh_proxy() {
     curl "localhost:9097/group/%E2%9A%A1%20%E8%87%AA%E5%8A%A8%E9%80%89%E6%8B%A9/delay?url=https://www.gstatic.com/generate_204&timeout=5000" \
         | if command -v jq &> /dev/null; then jq "to_entries | min_by(.value) | {name: .key, latency: .value}"; else cat; fi
 }
