@@ -6,5 +6,5 @@ debug() {
     make -s $1 && gdb -q $1
 }
 
-export PATH="$PATH:~/apps"
+[[ ":$PATH:" != *":$HOME/apps:"* ]] && export PATH="$PATH:$HOME/apps"
 alias cz="chezmoi"
