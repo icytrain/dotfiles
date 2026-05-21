@@ -1,6 +1,6 @@
 {
     "chat.disableAIFeatures": true,
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Light Modern",
     "files.autoSave": "onFocusChange",
     "editor.fontFamily": "'Fira Code', 'Liberation Mono'",
     "editor.fontLigatures": "'ss08', 'ss09'",
