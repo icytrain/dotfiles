@@ -1,5 +1,6 @@
 {
     "chat.disableAIFeatures": true,
+    "chatgpt.localeOverride": "zh-CN",
     "workbench.editor.useModal": "off",
     "workbench.colorTheme": "Light+",
     "files.autoSave": "onFocusChange",
